@@ -3,7 +3,7 @@ In this paper, we proposed Cer-FeaUn, a certified feature unlearning, trading of
 
 # Architecture
 The Framework of Cer-FeaUn. Cer-FeaUn requires only one epoch, which consists of six steps: (a) active clients perturb their own datasets using the feature perturbation strategy, (b) all clients input the dataset into the client-side model, (c) the outputs of client-side models are uploaded to server, (d) server evaluate the association between the sensitive features and the model, (e) server download modified gradients, (f) all clients update model using corresponding gradient.
-![fram1 (1)](./Cer-FeaUn.pdf)
+![fram1 (1)](./Cer-FeaUn.png)
 
 # Citation
 @article{wang2025cer,
